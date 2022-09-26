@@ -11,4 +11,10 @@
 Sample text:
 ---
 
+`sample text`
+
+```
+#Sample text
+this text as been thoroughly sampled
+```
 
