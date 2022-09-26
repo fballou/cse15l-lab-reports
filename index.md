@@ -1,5 +1,6 @@
 # Sample text ._.
 
+# New Sample text that has been changed
 # Even more sample text ._.
 
 - text of sampling
@@ -14,7 +15,7 @@ Sample text:
 `sample text`
 
 ```
-#Sample text
+# Sample text
 this text as been thoroughly sampled
 ```
 
