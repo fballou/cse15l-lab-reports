@@ -1,7 +1,14 @@
-# Sample text ._.
+# Links for my different pages:
 
-# New Sample text that has been changed
-# Even more sample text ._.
+[Week 0 Lab Report](https://fballou.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+
+
+
+
+# Using the different Markdown commands:
+
+## New Sample text that has been changed
+## Even more sample text
 
 - text of sampling
 - sampling of the text
