@@ -5,7 +5,8 @@
 ## <span style="color:Magenta"> Part 1: Server Search Engine </span>
 <span style="font-family:Hellvetica; font-size:1em;"> In Week 2's lab, we worked on creating our own local server. We created a SearchEngine class that allowed us to search queries and paths in order to return a list of what we've searched for. </span>
 
-![image](SearchEngine_code.jpg)
+![image](code_add.jpg)
+![image](code_search.jpg)
 
 <span style="font-family:Hellvetica; font-size:1em;"> This class implements the handleRequest() method which allows us to either add a query to an arraylist or search for the queries that contain the string that we're searching for. The if statements allow us to search through and see whether we're adding or searching for a string. The way this works is by checking first if the path contains "/add" or if it s "/search". Depending on what it is results in what code is run. For the "/add" portion of the code, we take the query and split it at the equals sign. If the character prior to the equals sign is an "s" then we add the second element of the parameters String array. That adds it to the ArrayList which was instantiated prior. If none of these conditions are met, a "404 Not Found!" message is returned. </span>
 
