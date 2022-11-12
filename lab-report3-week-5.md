@@ -66,7 +66,7 @@ grep - h "danger" technical/911report/*.txt
 <span style="font-family:Hellvetica; font-size:1em;">What "-h" does is printing  out in bulk the text that contains the string you're searching for. This is useful when it comes to identifying and counting how many of that string are present in the txt file or files you're searching for. You can combine this with wc to get a finite answer. It differs from "-b" which has everything displayed in a more left-alligned manner. The usage of "-h" provides a display that shows what the contents look like within the file without being shifted around to fit the parameters of "-b" showing the file name and number.</span>
 
 
-## <span style="color:Magenta"> 2) -o</span>
+## <span style="color:Magenta"> 3) -o</span>
 <span style="font-family:Hellvetica; font-size:1em;">Lastly, I'll be looking into "-o".</span>
 ```
 grep - h "weather" technical/911report/*.txt
