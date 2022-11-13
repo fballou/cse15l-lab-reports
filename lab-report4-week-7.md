@@ -60,12 +60,13 @@ System.out.println(f.toString());
 
 <span style="font-family:Hellvetica; font-size:1em;">Here, I will time myself recreating the same edits that I showed above. I will do them on my local device and scp the file over. I will also do the change on the remote server using vim. From there I'll decide which is better to use.</span>
 
-<span style="font-family:Hellvetica; font-size:1em;">When doing these changes on my local server, it takes approximately 37 seconds from no change to the file being run using bash scripting it on ssh remote server.
+<span style="font-family:Hellvetica; font-size:1em;">When doing these changes on my local server, it takes approximately 37 seconds from no change to the file being run using bash scripting it on ssh remote server. </span>
 
-For the VIM server, from the moment I enter VIM mode, it takes 21 seconds to add the change, save and quit from VIM mode, and running the command on bash scripting.
+<span style="font-family:Hellvetica; font-size:1em;">
+For the VIM server, from the moment I enter VIM mode, it takes 21 seconds to add the change, save and quit from VIM mode, and running the command on bash scripting.</span>
 
-Overall if I had to choose which style I'd prefer, that decision would depend on the task that I'm doing. VIM is more useful when it comes to quick changes. For tasks like we did above where we had one simple change, VIM is more useful and efficient. It allows for quick changes to be made. For example, if there's a missing semi-colon, or every time you test something and there's one error in a line that you constantly have to change, VIM is better. In those instances, I'd use VIM. However, for tasks that take more time like making a full file, I'd prefer editing it on the local server. It's easier to navigate, manipulate, and format on the local. After completing that, I'd scp it over to the remote.
+<span style="font-family:Hellvetica; font-size:1em;">
+Overall if I had to choose which style I'd prefer, that decision would depend on the task that I'm doing. VIM is more useful when it comes to quick changes. For tasks like we did above where we had one simple change, VIM is more useful and efficient. It allows for quick changes to be made. For example, if there's a missing semi-colon, or every time you test something and there's one error in a line that you constantly have to change, VIM is better. In those instances, I'd use VIM. However, for tasks that take more time like making a full file, I'd prefer editing it on the local server. It's easier to navigate, manipulate, and format on the local. After completing that, I'd scp it over to the remote.</span>
 
-Overall, I'd use local for the larger tasks that make up the bulk of the file. Once I'm making small changes and debugging the code, I'd prefer to use VIM.
-
-</span>
+<span style="font-family:Hellvetica; font-size:1em;">
+Overall, I'd use local for the larger tasks that make up the bulk of the file. Once I'm making small changes and debugging the code, I'd prefer to use VIM.</span>
