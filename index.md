@@ -8,6 +8,8 @@
 
 [Week5 Lab Report](https://fballou.github.io/cse15l-lab-reports/lab-report3-week-5.html)
 
+[Week7 Lab Report](https://fballou.github.io/cse15l-lab-reports/lab-report4-week-7.html)
+
 # Using the different Markdown commands:
 
 ## New Sample text that has been changed
