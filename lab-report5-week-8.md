@@ -132,7 +132,7 @@ else
     echo "ListExamples.java Has Successfully Compiled."
 fi
 ```
-<span style="font-family:Hellvetica; font-size:1em;">Since ListExamples.java in this repository successfully compiled, it'll skip the first if statement block and go to the else block. It'll print "ListExamples.java Has Successfully Compiled. There is no stderr and the exit code is 0.</span>
+<span style="font-family:Hellvetica; font-size:1em;">Since ListExamples.java in this repository successfully compiled, it'll skip the first if statement block and go to the else block. It'll print "ListExamples.java Has Successfully Compiled. There is no stderr and the exit code is 0. There also is no early exit of this bash script.</span>
 
 <span style="font-family:Hellvetica; font-size:1em;">The next line will compile all the other files within that directory (TestListExamples.java). </span>
 
@@ -141,7 +141,7 @@ javac -cp $CPATH *.java
 ```
 <span style="font-family:Hellvetica; font-size:1em;">Since this compiles, the exit code will be 0. There is no stderr since there are no errors with running this command. </span>
 
-<span style="font-family:Hellvetica; font-size:1em;">This command will run the TestListExamples file. Every instance of a junit test being run will be thrown into the results.txt file. </span>
+<span style="font-family:Hellvetica; font-size:1em;">This command will run the TestListExamples file. Every instance of a junit test being run will be outputted into the results.txt file. </span>
 ```
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples | grep "Tests run:" > results.txt
 ```
@@ -170,4 +170,4 @@ FAILED=${NUMS[1]}
 ```
 echo "$FAILED tests failed out of $TOTAL tests"
 ```
-<span style="font-family:Hellvetica; font-size:1em;">There is no stderr with this line. It'll run without issue.</span>
+<span style="font-family:Hellvetica; font-size:1em;">There is no stderr with this line. It'll run without issue. The exit code is 0.</span>
